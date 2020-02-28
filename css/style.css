@@ -1,8 +1,29 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
 /* REGOLE GENERALI */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 24px;
+}
+
+span {
+  display: inline-block;
+  max-width: 100px;
+  margin-left: 10px;
 }
 
 [class*="col-"] {
@@ -22,9 +43,47 @@ section {
   /* fine debug */
 }
 
+ul li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* REGOLE JUMBOTRON */
 #jumbotron {
   background: linear-gradient(30deg, #225393, #002351);
+  color: #7393c1;
+  padding-top: 30px;
+}
+
+#jumbotron h2 {
+  color: #fff;
+  margin: 50px 0;
+}
+
+#jumbotron p {
+  margin: 50px 0;
+}
+
+#jumbotron ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.clock-img {
+  margin-top: 100px;
+}
+
+.icona {
+  opacity: 0.4;
+}
+
+.hero-img {
+  display: block;
+  margin: 0 auto;
 }
 
 /* REGOLE FOOTER */
