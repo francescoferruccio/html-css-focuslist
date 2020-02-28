@@ -16,8 +16,8 @@ h2 {
   font-size: 36px;
 }
 
-p {
-  font-size: 24px;
+h4 {
+  color: #274daf;
 }
 
 span {
@@ -66,6 +66,7 @@ a {
 
 #jumbotron p {
   margin: 50px 0;
+  font-size: 24px;
 }
 
 #jumbotron ul li {
@@ -85,6 +86,23 @@ a {
   display: block;
   margin: 0 auto;
   width: 80%;
+}
+
+/* REGOLE SEZIONE PLAN */
+#plan .container div:first-child {
+  text-align: center;
+}
+
+#plan img {
+  width: 100%;
+}
+
+.plan-left {
+  text-align: right;
+}
+
+.plan-right {
+  text-align: left;
 }
 
 /* REGOLE FOOTER */
