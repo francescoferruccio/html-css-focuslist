@@ -89,6 +89,20 @@ a {
 }
 
 /* REGOLE SEZIONE PLAN */
+#plan h2 {
+  margin-top: 30px;
+}
+
+#plan p {
+  color: #9ba6b7;
+}
+
+.sottotitolo-plan {
+  padding: 20px 0;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
 #plan .container div:first-child {
   text-align: center;
 }
@@ -99,10 +113,12 @@ a {
 
 .plan-left {
   text-align: right;
+  margin-top: 10%;
 }
 
 .plan-right {
   text-align: left;
+  margin-top: 15%;
 }
 
 /* REGOLE FOOTER */
