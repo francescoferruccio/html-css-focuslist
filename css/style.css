@@ -29,7 +29,7 @@ span {
 [class*="col-"] {
   /* debug */
   /* background-color: pink; */
-  min-height: 100px;
+  /* min-height: 100px; */
   border: 1px solid black;
   /* fine debug */
 }
@@ -130,8 +130,48 @@ footer {
   /* fine debug */
 }
 
+/* REGOLE VERSIONE MOBILE */
 @media screen and (max-width: 768px) {
   #jumbotron {
     text-align: center;
+  }
+
+  .sottotitolo-plan {
+    padding: 20px 0;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .plan-left, .plan-right {
+    text-align: center;
+    margin: 0;
+  }
+
+  #plan img {
+    height: 500px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* REGOLE VERSIONE TABLET */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .sottotitolo-plan {
+    padding: 20px 0;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .plan-left, .plan-right {
+    text-align: center;
+    margin: 0;
+  }
+
+  #plan img {
+    height: 500px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
   }
 }
