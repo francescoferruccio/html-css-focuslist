@@ -164,10 +164,13 @@ footer {
 
 /* REGOLE VERSIONE MOBILE */
 @media screen and (max-width: 768px) {
+  /* JUMBOTRON MOBILE */
   #jumbotron {
     text-align: center;
+    padding-bottom: 20px;
   }
 
+  /* PLAN MOBILE */
   .sottotitolo {
     padding: 20px 0;
     max-width: 80%;
@@ -184,11 +187,31 @@ footer {
     width: auto;
     display: block;
     margin: 0 auto;
+  }
+
+  /* FOCUS MOBILE */
+  #focus {
+    padding-bottom: 20px;
+  }
+
+  #focus p:not(.sottotitolo) {
+    width: 80%;
+    margin: 10px auto;
   }
 }
 
 /* REGOLE VERSIONE TABLET */
 @media screen and (min-width: 769px) and (max-width: 992px) {
+  /* JUMBOTRON TABLET */
+  #jumbotron {
+    padding-bottom: 40px;
+  }
+
+  /* PLAN TABLET */
+  #plan {
+    padding-bottom: 40px;
+  }
+
   .sottotitolo {
     padding: 20px 0;
     max-width: 80%;
@@ -205,5 +228,10 @@ footer {
     width: auto;
     display: block;
     margin: 0 auto;
+  }
+
+  /* FOCUS TABLET */
+  #focus {
+    padding-bottom: 40px;
   }
 }
