@@ -6,24 +6,32 @@
 }
 
 [class*="col-"] {
-  background-color: pink;
+  /* debug */
+  /* background-color: pink; */
   min-height: 100px;
   border: 1px solid black;
+  /* fine debug */
 }
 
 section {
   /* debug */
   min-height: 150px;
-  background-color: red;
+  /* background-color: red; */
   border: 1px solid black;
   margin-bottom: 10px;
   /* fine debug */
 }
 
+/* REGOLE JUMBOTRON */
+#jumbotron {
+  background: linear-gradient(30deg, #225393, #002351);
+}
+
+/* REGOLE FOOTER */
 footer {
   /* debug */
   min-height: 100px;
-  background-color: blue;
+  /* background-color: blue; */
   border: 1px solid black;
   /* fine debug */
 }
