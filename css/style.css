@@ -24,6 +24,12 @@ h4 {
   color: #274daf;
 }
 
+h5 {
+  color: #7393c1;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
 span {
   display: inline-block;
   max-width: 100px;
@@ -167,13 +173,23 @@ a {
   text-align: right;
 }
 
+.track-img-right {
+  text-align: left;
+}
+
 /* REGOLE FOOTER */
 footer {
   /* debug */
   min-height: 100px;
-  /* background-color: blue; */
   border: 1px solid black;
   /* fine debug */
+  background-color: #113462;
+  padding: 50px;
+  color: #fff;
+}
+
+footer a {
+  font-size: 14px;
 }
 
 /* REGOLE VERSIONE MOBILE */
@@ -211,6 +227,24 @@ footer {
   #focus p:not(.sottotitolo) {
     width: 80%;
     margin: 10px auto;
+  }
+
+  /* TRACK MOBILE */
+  .track-img-left {
+    text-align: center;
+  }
+
+  .track-img-right {
+    text-align: center;
+  }
+
+  /* FOOTER MOBILE */
+  footer {
+    text-align: center;
+  }
+
+  .copy {
+    margin-top: 50px;
   }
 }
 
