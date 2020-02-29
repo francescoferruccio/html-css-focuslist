@@ -66,14 +66,16 @@ a {
 #jumbotron ul li {
   display: inline-block;
   margin-right: 10px;
+  color: #fff;
+  opacity: 0.4;
+}
+
+#jumbotron ul li:hover {
+  opacity: 1;
 }
 
 .clock-img {
   margin-top: 100px;
-}
-
-.icona {
-  opacity: 0.4;
 }
 
 .hero-img {
