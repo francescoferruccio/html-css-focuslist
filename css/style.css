@@ -153,6 +153,20 @@ a {
   margin-bottom: 20px;
 }
 
+/* REGOLE SEZIONE TRACK */
+#track {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#track p {
+  color: #9ba6b7;
+}
+
+.track-img-left {
+  text-align: right;
+}
+
 /* REGOLE FOOTER */
 footer {
   /* debug */
