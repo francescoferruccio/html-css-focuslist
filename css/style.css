@@ -36,23 +36,6 @@ span {
   margin-left: 10px;
 }
 
-[class*="col-"] {
-  /* debug */
-  /* background-color: pink; */
-  /* min-height: 100px; */
-  /* border: 1px solid black; */
-  /* fine debug */
-}
-
-section {
-  /* debug */
-  min-height: 150px;
-  /* background-color: red; */
-  border: 1px solid black;
-  margin-bottom: 10px;
-  /* fine debug */
-}
-
 ul li {
   list-style-type: none;
 }
@@ -67,6 +50,7 @@ a {
   background: linear-gradient(30deg, #225393, #002351);
   color: #7393c1;
   padding-top: 30px;
+  padding-left: 10px;
 }
 
 #jumbotron h2 {
@@ -201,6 +185,11 @@ footer a {
   }
 
   /* PLAN MOBILE */
+  #plan p:not(.sottotitolo) {
+    width: 80%;
+    margin: 10px auto;
+  }
+
   .sottotitolo {
     padding: 20px 0;
     max-width: 80%;
@@ -264,6 +253,11 @@ footer a {
     padding: 20px 0;
     max-width: 80%;
     margin: 0 auto;
+  }
+
+  #plan p:nth-child(2) {
+    width: 80%;
+    margin: 10px auto;
   }
 
   .plan-left, .plan-right {
